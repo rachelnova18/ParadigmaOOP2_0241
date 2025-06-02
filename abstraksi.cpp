@@ -22,3 +22,11 @@ public:
     }
 };
 
+int main()
+{
+    AbstraksiKlas ak;
+    ak.setXY("Yogyakarta", "Kampus"); // mengisi nilai x dan y
+    ak.display();                     // menampilkan nilai x dan y
+
+    return 0;
+}
